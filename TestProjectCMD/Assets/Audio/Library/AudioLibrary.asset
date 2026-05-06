@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 300ab585a29dd9044ac9e2dc4b1e6a3f, type: 3}
+  m_Name: AudioLibrary
+  m_EditorClassIdentifier: 
+  clips:
+  - key: BGM
+    channel: 0
+    clip: {fileID: 8300000, guid: eff853084e0fc884bb16ba6f2104c48b, type: 3}
+    volume: 0.25
+    loop: 1
+  - key: Slash
+    channel: 1
+    clip: {fileID: 8300000, guid: 0be81f081e20ee445805fbea53e36a71, type: 3}
+    volume: 0.5
+    loop: 0
+  - key: Hit
+    channel: 1
+    clip: {fileID: 8300000, guid: 628e9ea9624462c4b8b767cf9c40347f, type: 3}
+    volume: 0.3
+    loop: 0
+  - key: Bite
+    channel: 1
+    clip: {fileID: 8300000, guid: 1e623cf02e1e77a43a127e89e7d3b277, type: 3}
+    volume: 0.5
+    loop: 0
+  - key: Bark
+    channel: 1
+    clip: {fileID: 8300000, guid: 9bfd8a16a7affdc4eaa0c15b8f5c2767, type: 3}
+    volume: 0.7
+    loop: 0
+  - key: DogDie
+    channel: 1
+    clip: {fileID: 8300000, guid: ea4f31bc23ab66d4c8ffb53e39d738df, type: 3}
+    volume: 0.7
+    loop: 0
+  - key: DogRespawn
+    channel: 1
+    clip: {fileID: 8300000, guid: 5936ec5cd7d0fab41922c41340060a62, type: 3}
+    volume: 0.7
+    loop: 0
